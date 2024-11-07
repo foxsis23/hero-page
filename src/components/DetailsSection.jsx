@@ -12,8 +12,6 @@ export const DetailsSection = () => {
                 const rect = image1.getBoundingClientRect();
                 const triggerPoint = window.innerHeight * 0.5;
 
-                console.log(`rect pos:${rect.top}`)
-
                 if (rect.top > 0 && rect.top < triggerPoint) {
                     image1.classList.add('animate-slideInFromTop');
                     image2.classList.add('animate-slideInFromBottom');
@@ -42,19 +40,19 @@ export const DetailsSection = () => {
     return(
         <section className="m-10 flex flex-col gap-10 md:flex-row items-center justify-center">
             <div className="relative w-full bg-cover bg-center md:mb-20 opacity-0" id="image-1">
-                <img src='/details1.jpg' alt="details_img" className="h-[600px]"/>
+                <img src='hero-page/details1.jpg' alt="details_img" className="h-[600px]"/>
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                     <h1 className="text-white text-4xl font-semibold">Portfolio</h1>
                 </div>
             </div>
             <div className="relative w-full bg-cover bg-center opacity-0" id="image-2">
-                <img src='/details2.jpg' alt="details_img" className="h-[600px]"/>
+                <img src='hero-page/details2.jpg' alt="details_img" className="h-[600px]"/>
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                     <h1 className="text-white text-4xl font-semibold">Plans</h1>
                 </div>
             </div>
             <div className="relative w-full bg-cover bg-center md:mb-40 opacity-0" id="image-3">
-                <img src='/details3.jpg' alt="details_img" className="h-[600px]"/>
+                <img src='hero-page/details3.jpg' alt="details_img" className="h-[600px]"/>
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                     <h1 className="text-white text-4xl font-semibold">Lots</h1>
                 </div>

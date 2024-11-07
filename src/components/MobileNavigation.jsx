@@ -15,7 +15,7 @@ export const MobileNavigation = () => {
         <>
             <header className="md:hidden flex relative flex-row justify-between items-center gap-10 p-2">
                 <div className="flex flex-row gap-4">
-                    <img src="/logo.jpg" alt="logo" className="h-8 w-8"/>
+                    <img src="hero-page/logo.jpg" alt="logo" className="h-8 w-8"/>
                     <p className="text-xl font-bold">Luxury Homes</p>
                 </div>
                 <button onClick={() => setOpen(prevState => !prevState)}>

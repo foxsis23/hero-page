@@ -12,7 +12,7 @@ export const Navigation = () => {
 
     return (
         <header className="flex-row gap-32 items-center p-6 justify-center md:flex hidden">
-            <img src="/logo.jpg" alt="logo" className="w-14 h-14"/>
+            <img src="hero-page/logo.jpg" alt="logo" className="w-14 h-14"/>
             <nav className="flex flex-row gap-24 text-lg items-center">
                 {navigationItems.map((item) => (
                     <p
