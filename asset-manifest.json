@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hero-page/static/css/main.a57385b4.css",
+    "main.js": "/hero-page/static/js/main.6b8e6ba5.js",
+    "static/js/453.90ba1ec7.chunk.js": "/hero-page/static/js/453.90ba1ec7.chunk.js",
+    "index.html": "/hero-page/index.html",
+    "main.a57385b4.css.map": "/hero-page/static/css/main.a57385b4.css.map",
+    "main.6b8e6ba5.js.map": "/hero-page/static/js/main.6b8e6ba5.js.map",
+    "453.90ba1ec7.chunk.js.map": "/hero-page/static/js/453.90ba1ec7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a57385b4.css",
+    "static/js/main.6b8e6ba5.js"
+  ]
+}
