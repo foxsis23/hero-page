@@ -49,7 +49,7 @@ export const ExpertiseSection = () => {
                     to custom cabins we work with our clients to design the home of their dreams that is not only unique
                     but built with quality, efficiency, and pride.</p>
             </div>
-            <img id="expertise-image" src="hero-page/interior.jpg" alt="interior" className="opacity-0 translate-x-full transition-transform duration-500 ease-out" />
+            <img id="expertise-image" src="interior.jpg" alt="interior" className="opacity-0 translate-x-full transition-transform duration-500 ease-out" />
         </section>
     )
 };
